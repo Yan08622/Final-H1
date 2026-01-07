@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-html lang=zh-Hant
-head
-    meta charset=UTF-8
-    title2025 計算機程式期末成果 - Final-H1title
-    style
-        body { font-family sans-serif; line-height 1.6; padding 20px; max-width 800px; margin auto; }
-        h1 { color #2c3e50; border-bottom 2px solid #eee; }
-        .video-container { margin-bottom 30px; background #f9f9f9; padding 15px; border-radius 8px; }
-        iframe { width 100%; height 450px; border none; }
-    style
-head
-body
-    h1期末考週成果展示h1
-    p學號：你的學號p
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 計算機程式期末成果展示 - Yan08622</title>
+    <style>
+        body { font-family: "Microsoft JhengHei", sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; background-color: #f4f7f6; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #e67e22; margin-top: 40px; }
+        .video-box { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        iframe { width: 100%; aspect-ratio: 16 / 9; border: none; border-radius: 5px; }
+        .info { background: #d1ecf1; color: #0c5460; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
 
-    div id=final
-        h2Final - 執行錄影展示h2
+    <h1>2025 計算機程式期末成果展示</h1>
+    
+    <div class="info">
+        <p><strong>學號：</strong> 你的學號 (請自行修改)</p>
+        <p><strong>成果說明：</strong> 已成功解決環境配置問題，包含 <code>bcrypt</code>、<code>waitress</code> 與 <code>wtforms</code> 等套件安裝，並成功啟動伺服器。</p>
+    </div>
 
-        div class=video-container
-            h3題目一：Brython 專案執行h3
-            iframe src=httpswww.youtube.comembed你的影片代碼1 allowfullscreeniframe
-        div
+    <h2 id="final">Final - 執行錄影展示</h2>
 
-        div class=video-container
-            h3題目二：Angry Bird 執行h3
-            iframe src=httpswww.youtube.comembed你的影片代碼2 allowfullscreeniframe
-        div
-    div
+    <div class="video-box">
+        <h3>題目一：Brython 專案執行</h3>
+        <iframe src="https://www.youtube.com/embed/你的影片代碼1" allowfullscreen></iframe>
+    </div>
 
-    hr
-    pa href=httpsgithub.comYan08622w13回 w13 倉儲內容ap
-body
+    <div class="video-box">
+        <h3>題目二：Angry Bird 執行</h3>
+        <iframe src="https://www.youtube.com/embed/你的影片代碼2" allowfullscreen></iframe>
+    </div>
 
-html
+    <hr>
+    <p><a href="https://github.com/Yan08622/w13">查看 w13 倉儲紀錄</a></p>
+
+</body>
+</html>
